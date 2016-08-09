@@ -4,6 +4,9 @@
 # 2. run cmake
 # 3. BOM error patch
 
+Write-Host "> ls"
+ls .
+
 Write-Host "> yaml-cpp"
 cd yaml-cpp
 

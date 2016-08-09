@@ -3,6 +3,11 @@
 # 1. create build dir
 # 2. run cmake
 # 3. BOM error patch
+Write-Host "> git submodule init"
+git submodule init
+
+Write-Host "> git submodule update"
+git submodule update
 
 Write-Host "> ls"
 ls .

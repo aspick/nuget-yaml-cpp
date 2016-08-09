@@ -4,19 +4,19 @@
 # 2. run cmake
 # 3. BOM error patch
 
-Write-Host "yaml-cpp"
+Write-Host "> yaml-cpp"
 cd yaml-cpp
 
-Write-Host "mkdir build"
+Write-Host "> mkdir build"
 mkdir build
 
-Write-Host "cd build"
+Write-Host "> cd build"
 cd build
 
-Write-Host "ls"
-ls
+Write-Host "> ls .."
+ls ..
 
-Write-Host "cmake .."
+Write-Host "> cmake .."
 cmake ..
 
 # avoid no BOM UTF-8 file error

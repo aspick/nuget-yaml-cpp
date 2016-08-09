@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>yaml-cpp</id>
+    <version>0.5.3</version>
+    <authors>Jesse Beder</authors>
+    <owners>Jesse Beder</owners>
+    <licenseUrl>http://https://github.com/jbeder/yaml-cpp/blob/master/LICENSE</licenseUrl>
+    <projectUrl>http://https://github.com/jbeder/yaml-cpp</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>A YAML parser and emitter in C++</description>
+    <releaseNotes>Bugfix release.
+
+This will be the last release that does not require C++11.</releaseNotes>
+    <copyright>Copyright (c) 2008-2015 Jesse Beder</copyright>
+    <tags>c++ yaml</tags>
+    <dependencies>
+      <dependency id="SampleDependency" version="1.0" />
+    </dependencies>
+  </metadata>
+</package>
